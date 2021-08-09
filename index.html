@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Thundr, the ultimate BaaS for Microsoft Azure (Technical Preview)</title>
+    <base href="/" />
+    <html lang="en">
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/thundr-favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
+    <link rel="canonical" href="https://thundr.dev/" />
+    <meta name="description" content="Thundr, the ultimate backend as a service for Microsoft Azure." />
+    <meta name="keywords" content="azure,cloud,serverless,database,storage,hosting,authentication,ml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://thundr.dev/" />
+    <meta property="og:title" content="Thundr" />
+    <meta property="og:image" content="https://thundr.dev/thundr-logo.png" />
+    <meta property="og:description" content="Thundr, the ultimate backend as a service for Microsoft Azure." />
+    <meta property="og:site_name" content="Thundr" />
+    <meta name="twitter:description" content="Thundr, the ultimate backend as a service for Microsoft Azure." />
+    <meta name="twitter:image:src" content="https://thundr.dev/thundr-twitter-card.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <style>
+      :root {
+        --bg-color-light: #f3f8fb;
+        --bg-color-dark: #273036;
+        --text-color: #4b4b4b;
+      }
+
+      * {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      p {
+        padding: 0;
+        margin: 0;
+      }
+
+      .center {
+        text-align: center;
+        /* text-align: justify; */
+      }
+
+      body, html {
+        /* height: 100vh; */
+        margin: 0;
+        padding: 0;
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+        background-color: var(--bg-color-light);
+        color: var(--text-color);
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      header {
+        padding: 40px 0;
+      }
+      header, article {
+        background: var(--bg-color-dark);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      header img {
+        position: relative;
+        width: 100px;
+      }
+      article > section {
+        display: flex;
+        text-shadow: 1px 1px 2px #0a0a0a;
+        margin: 20px;
+        flex-direction: column;
+        align-items: center;
+      }
+      h1 {
+        text-shadow: 1px 1px 2px #0a0a0a;
+        word-wrap: break-word;
+        box-sizing: border-box;
+        font-size: 4em;
+        margin: 0;
+        color: white;
+        text-transform: uppercase;
+        position: relative;
+      }
+      h2 {
+        text-transform: uppercase;
+        color: white;
+      }
+      sup {
+        font-size: 12px;
+        text-transform: uppercase;
+        top: 18px;
+        position: absolute;
+        left: 260px;
+      }
+      footer {
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      footer section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        color: #808080c2;
+        margin-right: 10px;
+        padding: 0 0 20px;
+      }
+      footer a {
+        color: var(--bg-color-dark);
+      }
+      footer section span {
+        padding: 4px 10px;
+      }
+      footer section span {
+        padding-top: 10px;
+      }
+      /* Signup form */
+      #thank-you {
+        display: none;
+      }
+      #mc_embed_signup, #thank-you {
+        color: white;
+        max-width: 530px;
+        background: var(--bg-color-dark);
+      }
+      #mc_embed_signup label{
+        text-transform: uppercase;
+      }
+      #mc_embed_signup form {
+        /* padding: 0 30px; */
+      }
+      #mc_embed_signup p {
+        /* padding: 10px; */
+      }
+      #mc_embed_signup_scroll {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+      }
+      #mc_embed_signup_scroll input[type=email] {
+        padding: 10px;
+        max-width: 400px;
+        width: 60vw;
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+      }
+      #mc_embed_signup_scroll input[type=submit] {
+        background: white;
+        border: 0;
+        margin: 0 10px;
+        height: 40px;
+        width: 80px;
+        text-transform: uppercase;
+      }
+
+      /* WAVES */
+      path.a {
+        fill: var(--primary-color);
+        opacity: 0.53;
+      }
+      path.b {
+        fill: var(--secondary-color);
+        opacity: 0.3;
+      }
+      path.c {
+        fill: var(--tertiary-color);
+        opacity: 0.4;
+      }
+      svg.background-wave--header {
+        overflow: visible;
+        position: absolute;
+        top: 0;
+        z-index: 0;
+      }
+
+      .wave-1 {
+        animation: wave-1 5s ease-in-out infinite alternate;
+      }
+      .wave-2 {
+        animation: wave-2 10s ease-in-out infinite alternate;
+      }
+      .wave-3 {
+        animation: wave-3 5s ease-in-out infinite;
+      }
+      .wave-4 {
+        animation: wave-4 5s ease-in-out infinite alternate;
+      }
+      .wave-5 {
+        animation: wave-5 10s ease-in-out infinite alternate;
+      }
+      .wave-6 {
+        animation: wave-6 5s ease-in-out infinite alternate;
+      }
+
+      @keyframes wave-1 {
+        to {
+          transform: translateY(45px);
+        }
+      }
+      @keyframes wave-2 {
+        to {
+          transform: translateY(40px);
+        }
+      }
+      @keyframes wave-3 {
+        from {
+          transform: translateY(50px);
+        }
+        50% {
+          transform: translateY(40px);
+        }
+        to {
+          transform: translateY(50px);
+        }
+      }
+      @keyframes wave-4 {
+        to {
+          transform: translateX(-10px);
+        }
+      }
+      @keyframes wave-5 {
+        to {
+          transform: translateX(100px);
+        }
+      }
+      @keyframes wave-6 {
+        to {
+          transform: translateX(80px);
+        }
+      }
+
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1138PZ41N"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X1138PZ41N');
+    </script>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="/thundr-logo.png"
+        alt="thunderstorm official logo"
+      />
+    </header>
+    <main>  
+      <article>
+        <section class="flex flex-direction-column text-shadow">
+          <h1>Thundr <sup>technical preview</sup></h1>
+          <h2 class="center">The ultimate backend as a service built on Microsoft Azure</h2>
+        </section>
+
+        <section>
+          <!-- Begin Mailchimp Signup Form -->
+          <div id="thank-you">
+            Thank you for your interest in Thundr. We will be in touch with you soon.
+          </div> 
+          <div id="mc_embed_signup">
+            <form action="https://gmail.us5.list-manage.com/subscribe/post?u=3d7bdb6ec953a69493619c463&amp;id=4c300d87b2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <label for="mce-EMAIL">Join the waitlist</label>
+              <div id="mc_embed_signup_scroll">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email to join the waitlist" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3d7bdb6ec953a69493619c463_4c300d87b2" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+            </form>
+            <p>Access is limited to a small group of testers during the technical preview of Thundr. Sign up today for your chance to try it out and help us improve.</p>
+          </div>
+          <!--End mc_embed_signup-->
+        </section>
+      </article>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#273036"
+          d="M0,96L48,122.7C96,149,192,203,288,229.3C384,256,480,256,576,229.3C672,203,768,149,864,133.3C960,117,1056,139,1152,154.7C1248,171,1344,181,1392,186.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          class="wave-1"
+          opacity="0.1"
+        ></path>
+        <path
+          opacity="0.2"
+          class="wave-2"
+          fill="#273036"
+          d="M0,192L48,165.3C96,139,192,85,288,101.3C384,117,480,203,576,229.3C672,256,768,224,864,202.7C960,181,1056,171,1152,181.3C1248,192,1344,224,1392,240L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+        <path
+          fill="#273036"
+          fill-opacity="1"
+          d="M0,160L48,144C96,128,192,96,288,101.3C384,107,480,149,576,176C672,203,768,213,864,186.7C960,160,1056,96,1152,69.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
+    </main>
+
+    <footer>
+      <section>
+        <span>By the <a target="__blank" href="https://github.com/manekinekko/thundr/graphs/contributors">"Project Thunderstorm"</a> team</span>
+        <span>Thundr <a target="__blank" href="https://github.com/manekinekko/thundr/blob/main/AFFILIATATION_NOTICE.md">is not affiliated</a> with Microsoft</span>
+        <span><a target="__blank" href="https://github.com/manekinekko/thundr/blob/main/PRIVACY.md">Privacy Policy</a></span>
+      </section>
+      <span>Powered by <a target="__blank" href="https://www.hexa.run">Hexa.run</a></span>
+    </footer>
+
+    <script>
+      (function() {
+        if (location.hash === '#thank-you') {
+          document.getElementById('thank-you').style.display = 'block';
+          document.getElementById('mc_embed_signup').style.display = 'none';
+        }
+      })()
+
+    </script>
+  </body>
+</html>
