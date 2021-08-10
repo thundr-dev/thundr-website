@@ -1,61 +1,61 @@
-# Privacy Policy
+## Privacy Policy for Thundr
 
-[thundr.dev](https://thundr.dev), code name "[Project Thunderstorm](https://github.com/manekinekko/thundr)" as a open source app. This Service, [thundr.dev](https://thundr.dev), is provided by [Project Thunderstorm team](https://github.com/manekinekko/thundr/graphs/contributors) at no cost and is intended for use as is.
+At Thundr, accessible from [Thundr.dev](https://thundr.dev), one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Thundr and how we use it.
 
-This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at [hi@thundr.dev](mailto:hi@thundr.dev).
 
-If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+## General Data Protection Regulation (GDPR)
 
-### Information Collection and Use
+We are a Data Controller of your information.
 
-Our Service does not currently collect any data about you.
+Thundr legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Information we collect and the specific context in which we collect the information:
 
-However, in the future, for a better experience while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to your email address. The information that we request is retained on your device and is not collected by us in any way.
+- Thundr needs to perform a contract with you
+- You have given Thundr permission to do so
+- Processing your personal information is in Thundr legitimate interests
+- Thundr needs to comply with the law
 
-The app may use third party services that may collect information used to identify you, such as third party analytics service.
+Thundr will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.
 
-### Cookies
+If you are a resident of the European Economic Area (EEA), you have certain data protection rights. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us.
 
-Cookies are files with small amount of data that is commonly used as anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your devices’s internal memory.
+In certain circumstances, you have the following data protection rights:
 
-This Services does not uses these “cookies” explicitly. However, the Service may use third party code and libraries that use “cookies” to collect information and to improve their services. You have the option to either accept or refuse these cookies, and know when a cookie is being sent to your device. If you choose to refuse these cookies, you may not be able to use some portions of our Service.
+- The right to access, update or to delete the information we have on you.
+- The right of rectification.
+- The right to object.
+- The right of restriction.
+- The right to data portability
+- The right to withdraw consent
 
-### Service Providers
+## Analytics
 
-We may employ third-party companies and individuals due to the following reasons:
+Thundr follows a standard procedure of using analytics. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
 
-- To facilitate our Service;
-- To provide the Service on our behalf;
-- To perform Service-related services; or
-- To assist us in analyzing how our Service is used.
+## Privacy Policies
 
-We want to inform users of this Service that these third parties may have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+You may consult this list to find the Privacy Policy for each of the advertising partners of Thundr.
 
-### Security
+Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Thundr, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
 
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+Note that Thundr has no access to or control over these cookies that are used by third-party advertisers.
 
-### Links to Other Sites
+## Third Party Privacy Policies
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+Thundr's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
 
-### Children’s Privacy
+You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
 
-This Services do not address anyone under the age of 13. We do not knowingly collect personal identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
+## Children's Information
 
-### Changes to This Privacy Policy
+Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
 
-We may update this Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.
+Thundr does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
 
-### Contact us
+## Online Privacy Policy Only
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [hi@thundr.dev](mailto:hi@thundr.dev).
+Our Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Thundr. This policy is not applicable to any information collected offline or via channels other than this website.
 
-### Open Source Support
+## Consent
 
-Feel free to open an issue or contact us via e-mail [hi@thundr.dev](mailto:hi@thundr.dev).<br/>
-If you find any bug, please contribute by [opening an issue](https://github.com/manekinekko/thundr/issues/new/choose) or sending a [pull request](https://github.com/manekinekko/thundr/pulls) with the fix.
-
----
-
-Updated August 7th, 2021.
+By using our website, you hereby consent to our Privacy Policy and agree to its terms.
