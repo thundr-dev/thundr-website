@@ -120,8 +120,14 @@
         padding-top: 10px;
       }
       /* Signup form */
-      #thank-you {
+      #thank-you, #good-bye {
         display: none;
+        color: white;
+        max-width: 530px;
+        text-align: center;
+        border-top: 1px solid;
+        background: var(--bg-color-dark);
+        padding-top: 70px;
       }
       #mc_embed_signup, #thank-you {
         color: white;
@@ -130,12 +136,6 @@
       }
       #mc_embed_signup label{
         text-transform: uppercase;
-      }
-      #mc_embed_signup form {
-        /* padding: 0 30px; */
-      }
-      #mc_embed_signup p {
-        /* padding: 10px; */
       }
       #mc_embed_signup_scroll {
         display: flex;
@@ -259,16 +259,19 @@
           <h2 class="center">The ultimate backend as a service built on Microsoft Azure</h2>
         </section>
 
-        <video controls width="720" poster="thundr-twitter-card.png">
+        <video id="video" controls width="720" poster="thundr-twitter-card.png">
           <source src="video/thundr.mp4" type="video/mp4">
           <source src="video/thundr.webm" type="video/webm">
         </video>
 
         <section>
           <!-- Begin Mailchimp Signup Form -->
-          <div id="thank-you">
+          <h2 id="thank-you">
             Thank you for your interest in Thundr. We will be in touch with you soon.
-          </div> 
+          </h2> 
+          <h2 id="good-bye">
+            We're sorry to see you go. <br> You have been removed from the waitlist.
+          </h2> 
           <div id="mc_embed_signup">
             <form action="https://gmail.us5.list-manage.com/subscribe/post?u=3d7bdb6ec953a69493619c463&amp;id=4c300d87b2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <label for="mce-EMAIL">Join the waitlist</label>
@@ -318,6 +321,12 @@
         if (location.hash === '#thank-you') {
           document.getElementById('thank-you').style.display = 'block';
           document.getElementById('mc_embed_signup').style.display = 'none';
+          document.getElementById('video').style.display = 'none';
+        }
+        else if (location.hash === '#good-bye') {
+          document.getElementById('good-bye').style.display = 'block';
+          document.getElementById('mc_embed_signup').style.display = 'none';
+          document.getElementById('video').style.display = 'none';
         }
       })()
 
