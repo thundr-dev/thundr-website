@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://thundr.dev" target="__blank">THUNDR</a><h1>
+<h1 align="center"><a href="https://thundr.dev" target="__blank">Project Thundr</a><h1>
 <p align="center">The ultimate backend as a service for Microsoft Azure</p>
 
 <p align="center">
