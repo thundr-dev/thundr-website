@@ -27,31 +27,24 @@
         --bg-color-dark: #273036;
         --text-color: #4b4b4b;
       }
-
       * {
         max-width: 100%;
         max-height: 100%;
       }
-
       p {
         padding: 0;
         margin: 0;
       }
-
       .center {
         text-align: center;
-        /* text-align: justify; */
       }
-
       body, html {
-        /* height: 100vh; */
         margin: 0;
         padding: 0;
         font-family: Roboto, "Helvetica Neue", sans-serif;
         background-color: var(--bg-color-light);
         color: var(--text-color);
       }
-
       body {
         display: flex;
         flex-direction: column;
@@ -79,7 +72,6 @@
       }
       h1 {
         text-shadow: 1px 1px 2px #0a0a0a;
-        //word-wrap: break-word;
         box-sizing: border-box;
         font-size: 4em;
         margin: 0;
@@ -94,13 +86,11 @@
       sup {
         font-size: 10px;
         text-transform: uppercase;
-        top: 0px;
+        top: 8px;
         position: absolute;
-        left: 280px;
-        background-color: rgba(255,255,255,0.1);
+        left: 255px;
         padding: 6px;
         border-radius: 3px;
-        animation: fadeIn 1.8s;
       }
       footer {
         text-align: center;
@@ -162,7 +152,6 @@
         width: 80px;
         text-transform: uppercase;
       }
-
       /* WAVES */
       path.a {
         fill: var(--primary-color);
@@ -182,7 +171,6 @@
         top: 0;
         z-index: 0;
       }
-
       .wave-1 {
         animation: wave-1 5s ease-in-out infinite alternate;
       }
@@ -201,7 +189,6 @@
       .wave-6 {
         animation: wave-6 5s ease-in-out infinite alternate;
       }
-
       @keyframes wave-1 {
         to {
           transform: translateY(45px);
@@ -238,24 +225,20 @@
           transform: translateX(80px);
         }
       }
-
       @keyframes fadeIn {
         from { opacity: 0; }
         to   { opacity: 1; }
       }
-
       .intro-video {
         border: 4px solid rgba(255,255,255,0.05);
         border-radius: 4px;
         box-shadow: 1px -1px 23px 1px rgba(255,255,255,0.05);
         animation: fadeInUp 0.9s;
       }
-      
       @keyframes fadeInUp {
         from { opacity: 0; transform: translateY(16px); }
         to   { opacity: 1; transform: translateY(0px);  }
       }
-
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1138PZ41N"></script>
     <script>
