@@ -89,7 +89,6 @@
         text-transform: uppercase;
         top: 8px;
         position: absolute;
-        left: 255px;
         padding: 6px;
         border-radius: 3px;
       }
@@ -239,6 +238,17 @@
       @keyframes fadeInUp {
         from { opacity: 0; transform: translateY(16px); }
         to   { opacity: 1; transform: translateY(0px);  }
+      }
+      @media only screen and (max-width: 450px) {
+        h1 {
+          font-size: 3em;
+        }
+        sub {
+          font-size: 8px;
+        }
+        h2 {
+          font-weight: 300;
+        }
       }
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1138PZ41N"></script>
